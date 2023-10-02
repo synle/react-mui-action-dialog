@@ -4,11 +4,12 @@
   "description": "react-mui-action-dialog",
   "main": "build/index.js",
   "files": [
-    "./build"
+    "./build",
+    "./src"
   ],
   "scripts": {
     "prebuild": "rm -rf build",
-    "build": "webpack",
+    "build": "tsc --project tsconfig.json",
     "format": "npx prettier --config ./.prettierrc --write **/*.{ts,tsx,js,jsx,scss,yml,html,json,md}",
     "test": "echo \"Error: no test specified\""
   },
@@ -29,7 +30,7 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.8",

@@ -1,3 +1,9 @@
-import { ActionDialogsContext as _ActionDialogsContext, useActionDialogs as _useActionDialogs } from './hooks/ActionDialogs';
-export declare const ActionDialogsContext: typeof _ActionDialogsContext;
-export declare const useActionDialogs: typeof _useActionDialogs;
+export declare const ActionDialogsContext: (props: any) => string;
+export declare const useActionDialogs: () => {
+    alert: () => void;
+    prompt: () => void;
+    confirm: () => void;
+    choice: () => void;
+    dismiss: () => void;
+    modal: () => void;
+};
