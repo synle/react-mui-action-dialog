@@ -1,6 +1,6 @@
 {
   "name": "syle-react-mui-action-dialog",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "This React library simplifies the usage of Material-UI dialogs, removing the need to manage states manually.",
   "main": "build",
   "scripts": {
