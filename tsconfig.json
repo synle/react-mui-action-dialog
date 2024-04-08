@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "ESNext",
     "outDir": "build",
-    "jsx": "react",
+    "jsx": "preserve",
     "moduleResolution": "Node",
     "declaration": true,
     "sourceMap": true,
