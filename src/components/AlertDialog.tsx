@@ -8,7 +8,7 @@ import {
   DialogTitle,
   IconButton,
 } from '@mui/material';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { BaseDialogInput } from './types';
 
 export type AlertInput = BaseDialogInput & {

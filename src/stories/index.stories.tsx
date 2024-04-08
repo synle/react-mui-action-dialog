@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { ActionDialogsContext } from 'react-mui-action-dialog';
 import { AlertExample } from './AlertExample';
 import { ChoiceExample } from './ChoiceExample';

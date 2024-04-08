@@ -1,6 +1,6 @@
 import CloseIcon from '@mui/icons-material/Close';
 import { Box, Dialog, DialogContent, DialogTitle, IconButton } from '@mui/material';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { BaseDialogInput } from './types';
 
 export type ModalInput = BaseDialogInput & {

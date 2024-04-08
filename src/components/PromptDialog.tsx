@@ -10,6 +10,7 @@ import {
 } from '@mui/material';
 import { SyntheticEvent, useState } from 'react';
 import { BaseDialogInput } from './types';
+import React from 'react';
 
 export type PromptInput = BaseDialogInput & {
   message: string;

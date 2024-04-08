@@ -3,13 +3,14 @@
     "target": "es6",
     "module": "ESNext",
     "outDir": "build",
-    "jsx": "preserve",
+    "jsx": "react",
     "moduleResolution": "Node",
     "declaration": true,
     "sourceMap": true,
     "strict": true,
     "skipLibCheck": true,
-    "noEmit": false
+    "noEmit": false,
+    "allowSyntheticDefaultImports": true
   },
   "exclude": ["node_modules", "src/stories"]
 }

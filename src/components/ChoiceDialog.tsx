@@ -8,7 +8,7 @@ import {
   ListItem,
   ListItemText,
 } from '@mui/material';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { BaseDialogInput } from './types';
 export type ChoiceOption = {
   startIcon?: ReactNode;

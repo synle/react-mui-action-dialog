@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { AlertInput } from './AlertDialog';
 import { ChoiceInput } from './ChoiceDialog';
 import { ModalInput } from './ModalDialog';
