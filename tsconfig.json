@@ -1,15 +1,25 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "ESNext",
+    "module": "esnext",
     "outDir": "build",
     "jsx": "react-jsx",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "sourceMap": true,
-    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
-    "noEmit": false
+    "sourceMap": true,
+    "strict": true
   },
-  "exclude": ["node_modules", "src/stories"]
+  "exclude": [
+    "node_modules",
+    "src/stories"
+  ]
 }
